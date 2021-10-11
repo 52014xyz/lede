@@ -1533,7 +1533,7 @@ TARGET_DEVICES += xiaomi_mi-router-3g
 define Device/xiaomi_mi-router-3g-v2
   $(Device/dsa-migration)
   $(Device/uimage-lzma-loader)
-  IMAGE_SIZE := 14848k
+  IMAGE_SIZE := 16064k
   DEVICE_VENDOR := Xiaomi
   DEVICE_MODEL := Mi Router 3G
   DEVICE_VARIANT := v2
@@ -1573,7 +1573,7 @@ TARGET_DEVICES += xiaomi_mi-router-4
 define Device/xiaomi_mi-router-4a-gigabit
   $(Device/dsa-migration)
   $(Device/uimage-lzma-loader)
-  IMAGE_SIZE := 14848k
+  IMAGE_SIZE := 16064k
   DEVICE_VENDOR := Xiaomi
   DEVICE_MODEL := Mi Router 4A
   DEVICE_VARIANT := Gigabit Edition
